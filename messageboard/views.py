@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Welcome to the MessageBoard!.")
-    #returns Message board page
+    return HttpResponse("Welcome to the message board")
+    #returns Message board pagecd

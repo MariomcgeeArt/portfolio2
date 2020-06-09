@@ -4,12 +4,12 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse("Mario's Portfolio.")
+    return HttpResponse("Portfolio Home.")
     #returns Home page with Marios Profile
 
 
 def contact(request):
-    return HttpResponse("Conact Me.")
+    return HttpResponse("Contact Me.")
     #returne page with text Contact  Me
 
 
