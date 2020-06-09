@@ -19,7 +19,7 @@ import portfolio
 import messageboard
 
 urlpatterns = [
-    path('portfolio/', include('portfolio.urls')),
+    path('', include('portfolio.urls')),
     path('messages/', include('messageboard.urls')),
     path('admin/', admin.site.urls),
 ]
